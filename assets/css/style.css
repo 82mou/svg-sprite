@@ -24,34 +24,22 @@ section ~ section {
   padding: 0 150px;
 }
 
-.svg-facebook svg {
+.svg-facebook .svg-sprite {
   fill: #3c599b;
 }
-.svg-twitter svg {
+.svg-twitter .svg-sprite {
   fill: #2aa3f0;
 }
-.svg-line {
+.svg-line .svg-sprite {
   fill: #1bb91f;
 }
 
 .svg-facebook-bg {
-  -webkit-transform: scale(4.5);
-  -moz-transform: scale(4.5);
-  -ms-transform: scale(4.5);
-  -o-transform: scale(4.5);
   transform: scale(4.5);
 }
 .svg-twitter-bg {
-  -webkit-transform: scale(4.5);
-  -moz-transform: scale(4.5);
-  -ms-transform: scale(4.5);
-  -o-transform: scale(4.5);
   transform: scale(4.5);
 }
 .svg-line-bg {
-  -webkit-transform: scale(4.5);
-  -moz-transform: scale(4.5);
-  -ms-transform: scale(4.5);
-  -o-transform: scale(4.5);
   transform: scale(4.5);
 }
