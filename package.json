@@ -1,0 +1,12 @@
+{
+  "name": "svg-sprite-test",
+  "version": "0.1.0",
+  "description": "svg sprite test",
+  "devDependencies": {
+    "svg-sprite": "^1.4.0"
+  },
+  "scripts": {
+    "svgsprite": "svg-sprite -C config.json —shape-transform-svgo svgo.json src/assets/svg/*svg && svg-sprite -C config-bg.json --shape-transform-svgo svgo.json src/assets/svg-bg/*.svg"
+  },
+  "private": true
+}

@@ -1,0 +1,15 @@
+{
+  "dest": "assets",
+  "mode": {
+    "css": {
+      "dest": "svg-bg",
+      "sprite": "sprite-bg.svg",
+      "bust": false,
+      "render": {
+        "css": {
+          "dest": "../css/sprite-bg.css"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.svg-facebook {
+	background: url("../svg-bg/sprite-bg.svg") 100% 0 no-repeat;
+}
+
+.svg-facebook-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-line {
+	background: url("../svg-bg/sprite-bg.svg") 0 100% no-repeat;
+}
+
+.svg-line-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-twitter {
+	background: url("../svg-bg/sprite-bg.svg") 0 0 no-repeat;
+}
+
+.svg-twitter-dims {
+	width: 40px;
+	height: 32px;
+}
+

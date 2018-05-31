@@ -1,0 +1,51 @@
+section ~ section {
+	margin-top: 40px;
+}
+.row {
+	padding: 0 20px;
+}
+.grid {
+	display: flex;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+.grid-item {
+	padding: 0 20px;
+}
+
+.facebook-bg:before {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 1px;
+	width: 6px;
+	height: 10px;
+	background: url('../svg-bg/sprite-bg.svg') no-repeat;
+	background-position: 100% 0;
+	background-size: 16px 10px;
+	content: '';
+}
+.twitter-bg:before {
+	 display: inline-block;
+	 position: absolute;
+	 top: 0;
+	 left: 1px;
+	 width: 6px;
+	 height: 10px;
+	 background: url('../svg-bg/sprite-bg.svg') no-repeat;
+	 background-position: 100% 0;
+	 background-size: 16px 10px;
+	 content: '';
+}
+.line-bg:before {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 1px;
+	width: 6px;
+	height: 10px;
+	background: url('../svg-bg/sprite-bg.svg') no-repeat;
+	background-position: 100% 0;
+	background-size: 16px 10px;
+	content: '';
+}
