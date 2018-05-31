@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title></title>
 	<link rel="stylesheet" href="./assets/css/style.css" />
-	<link rel="stylesheet" href="./assets/css/sprite-bg.css" />
+	<link rel="stylesheet" href="./assets/css/svg-sprite-bg.css" />
 </head>
 <body>
 <section>
@@ -12,22 +12,28 @@
 	<div class="row">
 		<div class="grid">
 			<div class="grid-item">
-				<svg class="sprite" role="img">
-					<title>DeNA</title>
-					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg/sprite.svg#facebook"></use>
-				</svg>
+        <div class="svg-facebook">
+          <svg class="sprite" role="img">
+            <title>DeNA</title>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg-sprite/svg-sprite.svg#facebook"></use>
+          </svg>
+        </div>
 			</div>
 			<div class="grid-item">
-				<svg class="sprite" role="img">
-					<title>DeNA</title>
-					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg/sprite.svg#twitter"></use>
-				</svg>
+        <div class="svg-twitter">
+          <svg class="sprite" role="img">
+            <title>DeNA</title>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg-sprite/svg-sprite.svg#twitter"></use>
+          </svg>
+        </div>
 			</div>
 			<div class="grid-item">
-				<svg class="sprite" role="img">
-					<title>DeNA</title>
-					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg/sprite.svg#line"></use>
-				</svg>
+        <div class="svg-line">
+          <svg class="sprite" role="img">
+            <title>DeNA</title>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg-sprite/svg-sprite.svg#line"></use>
+          </svg>
+        </div>
 			</div>
 		</div>
 	</div>
@@ -35,18 +41,20 @@
 <section>
 	<h2>backgroundで使用</h2>
 	<div class="row">
-		<div class="grid">
-			<div class="grid-item">
-				<div class="facebook-bg"></div>
+		<div class="grid-bg">
+			<div class="grid-item-bg">
+				<div class="svg-facebook-bg svg-facebook-bg-dims"></div>
 			</div>
-			<div class="grid-item">
-				<div class="twitter-bg"></div>
+			<div class="grid-item-bg">
+				<div class="svg-twitter-bg svg-twitter-bg-dims"></div>
 			</div>
-			<div class="grid-item">
-				<div class="line-bg"></div>
+			<div class="grid-item-bg">
+				<div class="svg-line-bg svg-line-bg-dims"></div>
 			</div>
 		</div>
 	</div>
 </section>
+<script src="./assets/js/svg4everybody.min.js"></script>
+<script src="./assets/js/app.js"></script>
 </body>
 </html>

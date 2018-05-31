@@ -2,8 +2,8 @@
   "dest": "assets",
   "mode": {
     "symbol": {
-      "dest" : "svg",
-      "sprite": "sprite.svg"
+      "dest" : "svg-sprite",
+      "sprite": "svg-sprite.svg"
     }
   }
 }
